@@ -1,0 +1,112 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.txt-rotate {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-size: 25px; 
+  color: #333; 
+  font-weight: bold;
+}
+
+/* Style the heading text */
+#heading {
+  text-align: center;
+  font-size: 36px; 
+  color: #007bff; 
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+
+form {
+  background-color: #f9f9f9;
+  max-width: 600px;
+  margin: auto;
+  background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Style input fields */
+input[type="email"],
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #555;
+  transition: border-color 0.3s;
+}
+
+input[type="email"]:focus,
+textarea:focus,
+input[type="file"]:focus {
+  border-color: #007bff;
+}
+
+/* Style placeholder text */
+input::placeholder,
+textarea::placeholder {
+  color: #999;
+}
+
+/* Style file input */
+input[type="file"] {
+  background-color: transparent;
+  color: #007bff;
+  padding: 10px;
+}
+
+/* Style buttons */
+input[type="button"] {
+  display: inline-block;
+  width: auto;
+  padding: 12px 24px;
+  background-color: #007bff;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+input[type="button"]:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: #fff;
+}
+
+/* Add spacing and alignment for labels */
+label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  label {
+    font-size: 16px;
+  }
+  form {
+    max-width: 100%;
+  }
+  input[type="email"],
+  textarea,
+  input[type="file"],
+  input[type="button"] {
+    width: 100%;
+  }
+}
