@@ -59,7 +59,7 @@
 
   <script type="text/javascript">
     (function () {
-      emailjs.init("SA40wGYtL8w7O62DL"); // replace with your actual user ID
+      emailjs.init("user_id"); // replace with your actual user ID
     })();
 
     function sendEmails() {
@@ -100,7 +100,7 @@
           };
 
           // Replace you Service ID ↓ and  Template ID ↓ here.
-          emailjs.send('service_m9rcd54', 'template_2qjsckx', templateParams)
+          emailjs.send('service_id', 'template_id', templateParams)
             .then(function (response) {
               console.log("SUCCESS", response);
             }, function (error) {
